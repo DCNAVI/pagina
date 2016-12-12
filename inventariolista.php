@@ -4,7 +4,7 @@ session_start();
 $verUsuarios="SELECT * From inventario ";
 $resultadousuario= $conexion->query($verUsuarios);
 
-
+// hay que hace mas bonita esta pagina
  if (isset($_GET['eliminar'])) {
     	#capturamos la variable url 
     	$idusuarioeliminar=$_GET['eliminar'];
